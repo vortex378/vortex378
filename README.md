@@ -1,6 +1,6 @@
 # Hi, I'm vortex378 👋
 
-I build web applications and backend systems that solve practical business problems. My recent work uses **C#, .NET, Go, React, TypeScript, PostgreSQL, and Kafka**.
+I build web applications and backend systems that solve practical business problems. My recent work uses **C#, .NET, Go, React, Next.js, TypeScript, PostgreSQL, and Kafka**.
 
 ## Featured projects
 
@@ -19,3 +19,9 @@ A shipment operations dashboard with a **Go API, Apache Kafka, PostgreSQL, React
 **[Try the interactive preview](https://vortex378.github.io/routepulse/)** · [Explore the code](https://github.com/vortex378/routepulse)
 
 The public preview simulates events in the browser. The Go/Kafka/PostgreSQL pipeline is configured for local Docker Compose use; it is not hosted behind the preview.
+
+### [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) · Multilingual travel website
+
+A live **Next.js and TypeScript** tour website with English, Albanian, German, and French pages, nine detailed tour itineraries, travel guides, responsive design, and localized search metadata. Visitors can plan a booking through WhatsApp.
+
+**[Visit the live site](https://albaniatours-hub.com/en)** · [Explore the code](https://github.com/vortex378/albania-travel-agency)
