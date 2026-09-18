@@ -18,4 +18,4 @@ A shipment operations dashboard with a **Go API, Apache Kafka, PostgreSQL, React
 
 **[Try the interactive preview](https://vortex378.github.io/routepulse/)** · [Explore the code](https://github.com/vortex378/routepulse)
 
-The public preview simulates events in the browser. The Go/Kafka/PostgreSQL pipeline runs locally with Docker Compose; it is not hosted behind the preview.
+The public preview simulates events in the browser. The Go/Kafka/PostgreSQL pipeline is configured for local Docker Compose use; it is not hosted behind the preview.
