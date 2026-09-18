@@ -4,6 +4,14 @@ I build web applications and backend systems that solve practical business probl
 
 ## Featured projects
 
+### [WorkforceOS](https://github.com/vortex378/workforceos) · Timesheets and approvals
+
+A full-stack workforce workflow built with **Next.js, TypeScript, PostgreSQL, and Vercel**. Employees create and submit time entries; managers approve or reject them. Server-side role checks, transactional state changes, database constraints, an audit trail, unit tests, and CI support the flow.
+
+**[Try the live product](https://workforceos-sigma.vercel.app)** · [Explore the architecture and code](https://github.com/vortex378/workforceos)
+
+The live demo uses a separate private workspace for each visitor and synthetic records. The role switcher lets reviewers explore both sides of the workflow.
+
 ### [Dispatchly](https://github.com/vortex378/dispatchly) · Field service operations
 
 A scheduling and dispatch dashboard built with **.NET 10, ASP.NET Core, EF Core, React, and TypeScript**. It includes job creation, technician assignment, overlap checks, status workflows, automated tests, and CI.
