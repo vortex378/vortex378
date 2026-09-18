@@ -1,8 +1,17 @@
-# Hi, I'm vortex378 👋
+# Arkel Lahi
 
-I build web applications and backend systems that solve practical business problems. My recent work uses **C#, .NET, Go, React, Next.js, TypeScript, PostgreSQL, and Kafka**.
+I build business software where the workflow, data model, and user experience all matter. My recent work spans **C#/.NET, Go, React, Next.js, TypeScript, PostgreSQL, and Kafka**.
 
-## Featured projects
+## Start here
+
+| Project | What it shows | Try it |
+| --- | --- | --- |
+| [WorkforceOS](https://github.com/vortex378/workforceos) | A deployed full-stack product with approvals, transactional decisions, and an audit trail | [Live app](https://workforceos-sigma.vercel.app) |
+| [Dispatchly](https://github.com/vortex378/dispatchly) | .NET 10, EF Core, scheduling rules, tests, and CI | [Interactive preview](https://vortex378.github.io/dispatchly/) |
+| [RoutePulse](https://github.com/vortex378/routepulse) | Go, Kafka, PostgreSQL, and event-processing safeguards | [Interactive preview](https://vortex378.github.io/routepulse/) |
+| [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) | A live multilingual customer-facing website | [Live site](https://albaniatours-hub.com/en) |
+
+## Engineering details
 
 ### [WorkforceOS](https://github.com/vortex378/workforceos) · Timesheets and approvals
 
