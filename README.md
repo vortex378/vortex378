@@ -1,8 +1,23 @@
 # Arkel Lahi
 
-I build business software where the workflow, data model, and user experience all matter. My recent work spans **C#/.NET, Go, React, Next.js, TypeScript, PostgreSQL, and Kafka**.
+Full-stack developer in Tirana, Albania (CET). I build business software (approvals, scheduling, booking, payments) and add AI to it where it saves real time.
 
-📍 Tirana, Albania · 🌐 [arkel-lahi.vercel.app](https://arkel-lahi.vercel.app)
+**Stack:** Next.js · React · TypeScript · Node.js · C#/.NET · Go · PostgreSQL · Supabase · Kafka
+
+**AI:** LLM features, ticket triage, prompt evaluation
+
+**Open to:** freelance projects and full-time remote roles
+
+🌐 [arkellahi.com](https://arkellahi.com) · [LinkedIn](https://linkedin.com/in/arkel-lahi) · arkellahi82@gmail.com
+
+## What I can help with
+
+| You need | Proof |
+| --- | --- |
+| Business apps with roles, approvals and audit trails | [WorkforceOS](https://github.com/vortex378/workforceos), [Dispatchly](https://github.com/vortex378/dispatchly) |
+| An AI-built app made production-ready: auth, payments, tests, security | [AFA BANK](https://github.com/vortex378/afa-bank), [WorkforceOS](https://github.com/vortex378/workforceos) |
+| AI features added to an existing product | [TableGo](https://github.com/vortex378/tablego-ai-assessment) |
+| A multilingual business site with booking | [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) |
 
 ## Start here
 
