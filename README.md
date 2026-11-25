@@ -9,11 +9,11 @@ I build business software where the workflow, data model, and user experience al
 | Project | What it shows | Try it |
 | --- | --- | --- |
 | [WorkforceOS](https://github.com/vortex378/workforceos) | A deployed full-stack product with approvals, transactional decisions, and an audit trail | [Live app](https://workforceos-sigma.vercel.app) |
-| [RoutePulse](https://github.com/vortex378/routepulse) | Go, Kafka, PostgreSQL, and event-processing safeguards | [Interactive preview](https://vortex378.github.io/routepulse/) |
 | [Dispatchly](https://github.com/vortex378/dispatchly) | .NET 10, EF Core, scheduling rules, tests, and CI | [Interactive preview](https://vortex378.github.io/dispatchly/) |
-| [RentSpace](https://github.com/vortex378/rentspace) | A white-label booking SaaS monorepo with database-enforced booking rules and a shared design system | Run locally |
-| [AFA BANK](https://github.com/vortex378/afa-bank) | A cybersecurity training platform with an atomic ledger, hardened auth, and role-based game flow | [Live app](https://afa-bank-next.cobra-public-community.workers.dev) |
+| [RoutePulse](https://github.com/vortex378/routepulse) | Go, Kafka, PostgreSQL, and event-processing safeguards | [Interactive preview](https://vortex378.github.io/routepulse/) |
 | [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) | A live multilingual website for a real client | [Live site](https://albaniatours-hub.com/en) |
+| [AFA BANK](https://github.com/vortex378/afa-bank) | A cybersecurity training platform with an atomic ledger, hardened auth, and role-based game flow | [Live app](https://afa-bank-next.cobra-public-community.workers.dev) |
+| [RentSpace](https://github.com/vortex378/rentspace) | A white-label booking SaaS monorepo with database-enforced booking rules and a shared design system | Run locally |
 
 ## Engineering details
 
@@ -25,14 +25,6 @@ A full-stack workforce workflow built with **Next.js, TypeScript, PostgreSQL, an
 
 The live demo uses a separate private workspace for each visitor and synthetic records. The role switcher lets reviewers explore both sides of the workflow.
 
-### [RoutePulse](https://github.com/vortex378/routepulse) · Event-driven shipment tracking
-
-A shipment operations dashboard with a **Go API, Apache Kafka, PostgreSQL, React, and TypeScript**. Its local pipeline uses a transactional outbox, Kafka consumer, event IDs, and sequence numbers to handle retries, duplicates, and out-of-order scans. Go tests and GitHub Actions check the backend and frontend.
-
-**[Try the interactive preview](https://vortex378.github.io/routepulse/)** · [Explore the code](https://github.com/vortex378/routepulse)
-
-The public preview simulates events in the browser. The Go/Kafka/PostgreSQL pipeline is configured for local Docker Compose use; it is not hosted behind the preview.
-
 ### [Dispatchly](https://github.com/vortex378/dispatchly) · Field service operations
 
 A scheduling and dispatch dashboard built with **.NET 10, ASP.NET Core, EF Core, React, and TypeScript**. It includes job creation, technician assignment, overlap checks, status workflows, automated tests, and CI.
@@ -41,11 +33,19 @@ A scheduling and dispatch dashboard built with **.NET 10, ASP.NET Core, EF Core,
 
 The live preview runs in browser demo mode. The repository includes a database-backed .NET API that can be run locally.
 
-### [RentSpace](https://github.com/vortex378/rentspace) · White-label booking SaaS
+### [RoutePulse](https://github.com/vortex378/routepulse) · Event-driven shipment tracking
 
-A **pnpm monorepo** that joins a booking backend with a reusable design system. Double bookings are prevented by a **PostgreSQL `EXCLUDE` constraint**, with a test that races concurrent bookings against it. Auth.js, Zod validation, and rate limiting protect the API. The frontend is re-skinned per business vertical through design tokens, and Playwright checks accessibility and visual regressions across three themes, with Lighthouse budgets in CI. Architecture decisions are recorded as ADRs.
+A shipment operations dashboard with a **Go API, Apache Kafka, PostgreSQL, React, and TypeScript**. Its local pipeline uses a transactional outbox, Kafka consumer, event IDs, and sequence numbers to handle retries, duplicates, and out-of-order scans. Go tests and GitHub Actions check the backend and frontend.
 
-[Explore the code](https://github.com/vortex378/rentspace) · Built from [SlotRent](https://github.com/vortex378/rental-booking) (booking backend) and [Vitrina](https://github.com/vortex378/vitrina) (design system)
+**[Try the interactive preview](https://vortex378.github.io/routepulse/)** · [Explore the code](https://github.com/vortex378/routepulse)
+
+The public preview simulates events in the browser. The Go/Kafka/PostgreSQL pipeline is configured for local Docker Compose use; it is not hosted behind the preview.
+
+### [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) · Multilingual travel website
+
+A live **Next.js and TypeScript** tour website with English, Albanian, German, and French pages, nine detailed tour itineraries, travel guides, responsive design, and localized search metadata. Visitors can plan a booking through WhatsApp.
+
+**[Visit the live site](https://albaniatours-hub.com/en)** · [Explore the code](https://github.com/vortex378/albania-travel-agency)
 
 ### [AFA BANK](https://github.com/vortex378/afa-bank) · Cybersecurity training platform
 
@@ -55,11 +55,11 @@ A multiplayer classroom platform where Red and Blue teams work inside a virtual 
 
 No real money or bank integration is involved; the platform is for education only.
 
-### [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) · Multilingual travel website
+### [RentSpace](https://github.com/vortex378/rentspace) · White-label booking SaaS
 
-A live **Next.js and TypeScript** tour website with English, Albanian, German, and French pages, nine detailed tour itineraries, travel guides, responsive design, and localized search metadata. Visitors can plan a booking through WhatsApp.
+A **pnpm monorepo** that joins a booking backend with a reusable design system. Double bookings are prevented by a **PostgreSQL `EXCLUDE` constraint**, with a test that races concurrent bookings against it. Auth.js, Zod validation, and rate limiting protect the API. The frontend is re-skinned per business vertical through design tokens, and Playwright checks accessibility and visual regressions across three themes, with Lighthouse budgets in CI. Architecture decisions are recorded as ADRs.
 
-**[Visit the live site](https://albaniatours-hub.com/en)** · [Explore the code](https://github.com/vortex378/albania-travel-agency)
+[Explore the code](https://github.com/vortex378/rentspace) · Built from [SlotRent](https://github.com/vortex378/rental-booking) (booking backend) and [Vitrina](https://github.com/vortex378/vitrina) (design system)
 
 ## More work
 
