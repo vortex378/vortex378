@@ -10,6 +10,8 @@ I build business software where the workflow, data model, and user experience al
 | [Dispatchly](https://github.com/vortex378/dispatchly) | .NET 10, EF Core, scheduling rules, tests, and CI | [Interactive preview](https://vortex378.github.io/dispatchly/) |
 | [RoutePulse](https://github.com/vortex378/routepulse) | Go, Kafka, PostgreSQL, and event-processing safeguards | [Interactive preview](https://vortex378.github.io/routepulse/) |
 | [Albanian Tours Hub](https://github.com/vortex378/albania-travel-agency) | A live multilingual customer-facing website | [Live site](https://albaniatours-hub.com/en) |
+| [AFA BANK](https://github.com/vortex378/afa-bank) | A cybersecurity training platform with an atomic ledger, hardened auth, and role-based game flow | [Live app](https://afa-bank-next.cobra-public-community.workers.dev) |
+| [TableGo](https://github.com/vortex378/tablego-ai-assessment) | Concurrency-safe booking, LLM ticket triage, and a reproducible prompt evaluation in Python | [Live demo](https://tablego-review.vercel.app) |
 
 ## Engineering details
 
@@ -42,3 +44,17 @@ The public preview simulates events in the browser. The Go/Kafka/PostgreSQL pipe
 A live **Next.js and TypeScript** tour website with English, Albanian, German, and French pages, nine detailed tour itineraries, travel guides, responsive design, and localized search metadata. Visitors can plan a booking through WhatsApp.
 
 **[Visit the live site](https://albaniatours-hub.com/en)** · [Explore the code](https://github.com/vortex378/albania-travel-agency)
+
+### [AFA BANK](https://github.com/vortex378/afa-bank) · Cybersecurity training platform
+
+A multiplayer classroom platform where Red and Blue teams work inside a virtual bank, investigate an incident, and submit evidence-backed reports. Built with **React, TypeScript, Three.js, Cloudflare Workers, and D1**. Money is stored as integer minor units; debits and credits run in one atomic batch with idempotency keys. Sessions are hashed and short-lived, passwords use salted PBKDF2, and mutations are rate limited and origin checked. Browser regressions run against an isolated local database.
+
+**[Open the live app](https://afa-bank-next.cobra-public-community.workers.dev)** · [Explore the code](https://github.com/vortex378/afa-bank)
+
+No real money or bank integration is involved; the platform is for education only.
+
+### [TableGo](https://github.com/vortex378/tablego-ai-assessment) · AI engineering assessment
+
+A **Python** submission in three parts: a concurrency-safe booking module, an HTTP ticket-triage service backed by an LLM, and a reproducible prompt comparison with raw results. All automated tests use fake models or mocked HTTP, so they run without API keys. AI assistance is disclosed in the repository.
+
+**[Try the live demo](https://tablego-review.vercel.app)** · [Explore the code](https://github.com/vortex378/tablego-ai-assessment)
